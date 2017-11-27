@@ -6,9 +6,150 @@ html, body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  background-color: #b7b7b7;
+  font-family: Arial;
+  font-size: 10px;
+}
+
+.global {
+  margin: 100px auto;
+  background-color: #f1f1f1;
+}
+
+hr {
+  border-color: #3c91c8;
 }
 
 table, tr, td {
   border-collapse: collapse;
-  border: 1px solid black;
+  /*border: 1px solid black;*/ For testing
+}
+
+.header {
+  height: 90px;
+  display: flex;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.blue {
+  color: #3c91c8;
+}
+
+.bigger {
+  font-size: 12px;
+}
+
+.padding {
+  padding-left: 40px;
+}
+
+.lsec {
+  padding-bottom: 20px;
+}
+
+.lsecless {
+  padding-bottom: 10px;
+}
+
+.rsec {
+  padding-bottom: 5px;
+}
+
+.paddingless {
+  padding-left: 35px;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.right {
+  padding-right: 40px;
+}
+
+.measure {
+  text-align: right;
+}
+
+tfoot {
+  background-color: #3c91c8;
+}
+
+.resume {
+  width: 70px;
+  height: 55px;
+  background-color: #3c91c8;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 7px;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.work {
+  height: 80px;
+  width: 80px;
+  background-color: rgba(60, 145, 200, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f1f1f1;
+  font-size: 16px;
+  padding-top: 10px;
+  transform: rotate(-65deg);
+  position: absolute;
+}
+
+.workcell {
+  width: 50px;
+  padding-bottom: 70px;
+  padding-right: 60px;
+}
+
+.play {
+  height: 80px;
+  width: 80px;
+  background-color: rgba(60, 145, 200, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #f1f1f1;
+  font-size: 16px;
+  padding-bottom: 10px;
+  transform: rotate(-65deg);
+  position: absolute;
+}
+
+.playcell {
+  width: 50px;
+  padding-bottom: 70px;
+  padding-right: 60px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #3c91c8;
+}
+
+.fa {
+  color: #3c91c8;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.progress {
+  background-color: #f1f1f1;
+}
+
+.progress-bar {
+  background-color: #3c91c8;
+  height: 10px
 }
