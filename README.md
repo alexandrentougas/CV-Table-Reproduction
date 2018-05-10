@@ -1,3 +1,3 @@
 **CV with tables**
 
-https://alexandrentougas.github.io/CV-Table/
+https://alexandrentougas.github.io/CV-Table-Reproduction/
